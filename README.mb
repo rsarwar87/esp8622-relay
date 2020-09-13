@@ -1,0 +1,6 @@
+# Flashing via Raspbery pi
+
+1. Connect ground, vcc, tx -> rx, rx -> tx, vcc -> register -> EN, pi-gpio 11 -> reset, pi-gpio 13 -> GPIO0
+2. enter flash mode: ./flash.py
+3. flash from ide
+4. reset device: ./reset.py
